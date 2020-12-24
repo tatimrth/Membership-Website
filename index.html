@@ -15,12 +15,34 @@
             -moz-background-size: cover;
             background-size: cover;
             -o-background-size: cover;
-     }
+        }
+
+        .container-md{
+            margin-top: 15rem;
+        }
+
+        .container-md a {
+            display: inline-block;
+            margin-top: 1rem;
+            color:rgb(59, 58, 58);
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 0.7rem 1.3rem;
+            border: 1px solid rgb(59, 58, 58);
+            transition: all 300ms linear;
+        }
+
+        .container-md:hover a {
+            border: 1px solid white;
+            color: white;
+            background-color: rgb(59, 58, 58);
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top mb-5 shadow">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">User Page</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,10 +68,11 @@
       </nav>
 
       <section class="text-center" id="home">
-          <div class="container-fluid">
+          <div class="container-md">
               <div class="row">
                   <div class="col">
                       <h2>Welcome to the website</h2>
+                      <a href="#">Get started !</a>
                   </div>
               </div>
           </div>
