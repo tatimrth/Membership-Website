@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register Page</title>
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/index.css">
+  
     <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
@@ -16,6 +16,14 @@
             -moz-background-size: cover;
             background-size: cover;
             -o-background-size: cover;
+        }
+
+        h3 {
+          text-align: center;
+        }
+
+        .container {
+          margin-top: 10rem;
         }
         
     </style>
@@ -46,6 +54,39 @@
           </div>
         </div>
       </nav>
+
+      <!-- Section goes here -->
+
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+              <div class="page-header">
+                <h3>Register</h3>
+              </div>
+              <form id="form" class="col-md-8 col-md-offset-2">
+                <div class="form-group"> Name:
+                  <input class="form-control" placeholder="Enter your full name please" type="text">
+                </div>
+                <div class="form-group"> Ursname:
+                  <input class="form-control" placeholder="Chose your ursname" type="text">
+                </div>
+                <div class="form-group"> Email:
+                  <input class="form-control" placeholder="Enter your email adress" type="email">
+                </div>
+                <div class="form-group"> Password:
+                  <input class="form-control" placeholder="Enter your password" type="password">
+                </div>
+                <div class="form-group"> Password confirmation:
+                  <input class="form-control" placeholder="Enter your password" type="password">
+                </div>
+              </form>
+            </div>
+            <div class="col-md-3"></div>
+          </div>
+        </div>
+      </section>
 
     
     
