@@ -74,29 +74,35 @@
           <div class="row">
             <div class="col-md-4"></div>
             <div class="col-md-6">
-              <form id="form" class="col-md-8 col-md-offset-2">
+              <form id="form" class="col-md-8 col-md-offset-2" role="form" method="post" action="./registration.php">
                 <div class="form-group"> Name:
-                  <input class="form-control" placeholder="Enter your full name please" type="text">
+                  <input class="form-control" placeholder="Enter your full name please" name="name" type="text">
                 </div>
                 <div class="form-group"> Ursname:
-                  <input class="form-control" placeholder="Chose your ursname" type="text">
+                  <input class="form-control" placeholder="Chose your user name" name="user_name" type="text">
                 </div>
                 <div class="form-group"> Email:
-                  <input class="form-control" placeholder="Enter your email adress" type="email">
+                  <input class="form-control" placeholder="Enter your email adress" name="email" type="email">
+                </div>
+                <div class="form-group"> Email confirmation:
+                  <input class="form-control"  name="email2" type="email">
                 </div>
                 <div class="form-group"> Password:
-                  <input class="form-control" placeholder="Enter your password" type="password">
+                  <input class="form-control" placeholder="Enter your password" name="password" type="password">
                 </div>
                 <div class="form-group"> Password confirmation:
-                  <input class="form-control" placeholder="Enter your password" type="password">
+                  <input class="form-control"  name="password2" type="password">
                 </div>
                 <div class="form-group"><br/>
-                  <input class="form-control" placeholder="btn btn-success" type="submit">
+                  <input class="form-control" placeholder="btn btn-success" value="Go !" name="register" type="submit">
                 </div>
               </form>
             </div>
           </div>
         </div>
-      </section>  
+      </section>
+
+    
+    
 </body>
 </html>
