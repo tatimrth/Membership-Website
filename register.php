@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register Page</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-  
+    <link rel="stylesheet" href="public/css/bootstrap.css">
     <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="public/js/bootstrap.js"></script>
     <style>
         body {
-            background: url('images/background_home.jpg') no-repeat center center fixed;
+            background: url('public/images/background_home.jpg') no-repeat center center fixed;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             background-size: cover;
@@ -101,8 +100,6 @@
           </div>
         </div>
       </section>
-
-    
     
 </body>
 </html>

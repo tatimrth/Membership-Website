@@ -10,13 +10,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Member Page</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/member.css">
+    <link rel="stylesheet" href="public/css/bootstrap.css">
+    <link rel="stylesheet" href="public/css/member.css">
     <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="public/js/bootstrap.js"></script>
     <style>
         body {
-            background: url('images/background_home.jpg') no-repeat center center fixed;
+            background: url('public/images/background_home.jpg') no-repeat center center fixed;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             background-size: cover;
@@ -58,22 +58,22 @@
 
           <div class="col-lg-3 col-md-4 col-6">
             <a href="#" class="d-block mb-4 h-100">
-                  <img class="img-fluid img-thumbnail" src="./images/blog.jpg" alt="">
+                  <img class="img-fluid img-thumbnail" src="public/images/blog.jpg" alt="">
                 </a>
           </div>
           <div class="col-lg-3 col-md-4 col-6">
             <a href="#" class="d-block mb-4 h-100">
-                  <img class="img-fluid img-thumbnail" src="./images/blog.jpg" alt="">
+                  <img class="img-fluid img-thumbnail" src="public/images/blog.jpg" alt="">
             </a>
           </div>
           <div class="col-lg-3 col-md-4 col-6">
             <a href="#" class="d-block mb-4 h-100">
-                  <img class="img-fluid img-thumbnail" src="./images/blog.jpg" alt="">
+                  <img class="img-fluid img-thumbnail" src="public/images/blog.jpg" alt="">
             </a>
           </div>
           <div class="col-lg-3 col-md-4 col-6">
             <a href="#" class="d-block mb-4 h-100">
-                  <img class="img-fluid img-thumbnail" src="./images/blog.jpg" alt="">
+                  <img class="img-fluid img-thumbnail" src="public/images/blog.jpg" alt="">
             </a>
           </div>
         </div>
