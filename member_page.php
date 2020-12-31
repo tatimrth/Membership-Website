@@ -44,9 +44,6 @@
               <li class="nav-item">
                 <a class="nav-link" href="index.html">Logout</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contacts.html">Contact Us</a>
-              </li>
             </ul>
           </div>
         </div>

@@ -1,7 +1,6 @@
 <?php
-//$bdd = mysqli_connect("localhost","root","");
-//mysqli_select_db($bdd,"membership");
-$bdd = new PDO('mysql:host=localhost;dbname=membership;port=3308', 'root', '');
+include('connection.php');
+//$bdd = new PDO('mysql:host=localhost;dbname=membership;port=3308', 'root', '');
 
 if(isset($_POST['register'])) {
     $name = htmlspecialchars($_POST['name']);
