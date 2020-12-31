@@ -37,7 +37,7 @@ if(isset($_POST['register'])) {
                       $insertmbr->execute(array($name, $user_name, $email, $password));
                       //echo "<script>window.open('index.html')</script>";
                       echo "<script>alert('Your registration was succed')</script>";
-                      header("Location:login.html");
+                      header("Location:login.php");
                    } 
                    else {
                     echo "<script>alert ('Your passwords are not the same !')</script>";
