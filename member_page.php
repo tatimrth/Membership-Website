@@ -1,3 +1,9 @@
+<?php
+  session_start();
+  if (!$_SESSION['email']) {
+    header("Location:login.php");
+  }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,7 +48,7 @@
                 <a class="nav-link active" aria-current="page" href="member_area.html">Member Area</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Logout</a>
+                <a class="nav-link" href="logout.php">Logout</a>
               </li>
             </ul>
           </div>
@@ -70,7 +76,7 @@
                 </div>
             </div>
         </div> -->
- 
+
         <div class="container">
             <div class="row">
               <div class="col-md-4">
