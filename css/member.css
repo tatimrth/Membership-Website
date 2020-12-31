@@ -1,0 +1,22 @@
+
+.container {
+    margin-top: 5rem;
+    align-items: center;
+   
+  }
+
+  img:hover {
+    transform: scale(1.1);
+  }
+
+  img {
+    transition: all 500ms linear;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  

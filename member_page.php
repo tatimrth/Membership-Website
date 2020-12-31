@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Member Page</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/member.css">
     <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <style>
@@ -21,17 +22,6 @@
             background-size: cover;
             -o-background-size: cover;
         }
-
-        h4 {
-            text-align: center;
-        }
-
-        .container {
-          margin-top: 15rem;
-          align-items: center;
-         
-        }
-        
     </style>
 </head>
 <body>
@@ -55,49 +45,38 @@
         </div>
       </nav>
 
-      <!-- Section Here-->
-
-      <section id="home">
-
-
-        <!-- <div class="container">
-            <div class="row">
     
-                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                    <img src="./images/blog.jpg" class="img-responsive">
-                </div>
-    
-                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                    <img src="./images/blog.jpg" class="img-responsive">
-                </div>
-    
-                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                    <img src="./images/blog.jpg" class="img-responsive">
-                </div>
-            </div>
-        </div> -->
+      </section> -->
 
-        <div class="container">
-            <div class="row">
-              <div class="col-md-4">
-                  <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                    <a href="#" class="thumbail"><img src="./images/blog.jpg" class="img-responsive"></a>
-                 </div>
-              </div>
-              <div class="col-md-4">
-                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                  <a href="#" class="thumbail"><img src="./images/blog.jpg" class="img-responsive"></a>
+      <div class="container">
 
-               </div>
-            </div>
-            <div class="col-md-4">
-                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                  <a href="#" class="thumbail"><img src="./images/blog.jpg" class="img-responsive"></a>
-               </div>
-            </div>
-            </div>
+        <h3 class="font-weight-light text-center text-lg-left mt-4 mb-0">Welcome to your member area !</h3>
+
+        <hr class="mt-2 mb-5">
+
+        <div class="row text-center text-lg-left">
+
+          <div class="col-lg-3 col-md-4 col-6">
+            <a href="#" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="./images/blog.jpg" alt="">
+                </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <a href="#" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="./images/blog.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <a href="#" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="./images/blog.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <a href="#" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="./images/blog.jpg" alt="">
+            </a>
+          </div>
         </div>
-      </section>
-    
+      </div>
 </body>
 </html>

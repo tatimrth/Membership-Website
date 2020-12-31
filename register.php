@@ -28,7 +28,7 @@
         .col-md-3 {
           align-content: center;
         }
-        
+
       
     </style>
 </head>
@@ -52,7 +52,7 @@
                 <a class="nav-link" href="login.php">Login</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Member Area</a>
+                <a class="nav-link" href="member_page.php">Member Area</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contacts.html">Contact Us</a>
