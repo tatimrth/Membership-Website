@@ -8,13 +8,13 @@ session_start();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="public/css/bootstrap.css">
   
     <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="public/js/bootstrap.js"></script>
     <style>
         body {
-            background: url('images/background_home.jpg') no-repeat center center fixed;
+            background: url('public/images/background_home.jpg') no-repeat center center fixed;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             background-size: cover;
@@ -37,7 +37,6 @@ session_start();
     </style>
 </head>
 <body>
-
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top mb-5 shadow">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">User Page</a>
@@ -50,10 +49,10 @@ session_start();
                 <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="register.html">Register</a>
+                <a class="nav-link" href="register.php">Register</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+                <a class="nav-link active" aria-current="page" href="login.php">Login</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Member Area</a>
